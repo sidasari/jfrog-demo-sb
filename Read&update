@@ -9,3 +9,5 @@ Add this to setting.xml file to fix  Blocked mirror for repositories error:
             <blocked>false</blocked>
         </mirror>
     </mirrors>
+
+use mvn deploy -Dcheckstyle.skip
